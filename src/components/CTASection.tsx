@@ -28,7 +28,7 @@ export function CTASection({ isVisible }: CTASectionProps) {
 
     setIsSubmitting(false);
     setIsSubmitted(true);
-    toast.success('Заявка отправлена! Анастасия свяжется с вами в ближайшее время.');
+    toast.success('Заявка отправлена! Ольга свяжется с вами в ближайшее время.');
     
     // Reset form after 3 seconds
     setTimeout(() => {
@@ -161,16 +161,16 @@ export function CTASection({ isVisible }: CTASectionProps) {
               <div className="text-center mb-6">
                 <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-[#ADC178]">
                   <ImageWithFallback
-                    src="/src/styles/photoForWebPage/Анастасия фото.jpg"
-                    alt="Анастасия, наш милый консультант"
+                    src="https://images.unsplash.com/photo-1612116144300-1714b6fa528a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMGNvbnN1bHRhbnR8ZW58MXx8fHwxNzYzNDQ5MDA1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                    alt="Ольга, консультант"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <h4 className="text-[#6C584C] mb-2" style={{ fontSize: '24px', fontWeight: '600' }}>
-                  Анастасия
+                  Ольга
                 </h4>
                 <p className="text-[#ADC178]" style={{ fontWeight: '600' }}>
-                  Ваш персональный консультант  ❤️
+                  Ваш персональный консультант
                 </p>
               </div>
 

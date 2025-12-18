@@ -1,53 +1,11 @@
-# 🏠 ВашРемонт - Платформа управления ремонтами
 
-<div align="center">
+  # Landing Page Design for ВашРемонт
 
-![ВашРемонт](https://img.shields.io/badge/ВашРемонт-Платформа_управления_ремонтами-6C584C?style=for-the-badge&logo=home&logoColor=white)
-![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-6.3.5-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+  This is a code bundle for Landing Page Design for ВашРемонт. The original project is available at https://www.figma.com/design/PD6U6h3V3KEfjeZjBRTfXC/Landing-Page-Design-for-%D0%92%D0%B0%D1%88%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82.
 
-**Современный лендинг для платформы управления строительными и ремонтными проектами**
+  ## Running the code
 
-[Демо](#) • [Документация](#) • [Отчеты](#)
+  Run `npm i` to install the dependencies.
 
-</div>
-
-## ✨ Особенности
-
-- 🎨 **Современный дизайн** - Адаптивный интерфейс с фирменной цветовой палитрой
-- ⚡ **Высокая производительность** - Быстрая загрузка благодаря Vite и React 18
-- 📱 **Полная адаптивность** - Идеальное отображение на всех устройствах
-- 🎯 **Конверсионный дизайн** - Оптимизирован для генерации заявок
-- 🔧 **Интерактивные элементы** - Анимации, слайдеры, формы с валидацией
-
-## 🎨 Цветовая палитра
-
-Проект использует подобранную цветовую схему:
-
-| Цвет | HEX | Использование |
-|------|-----|---------------|
-| ![#F0EAD2](https://via.placeholder.com/15/F0EAD2/000000?text=+) | `#F0EAD2` | Основной фон |
-| ![#DDE5B6](https://via.placeholder.com/15/DDE5B6/000000?text=+) | `#DDE5B6` | Вторичный фон |
-| ![#ADC178](https://via.placeholder.com/15/ADC178/000000?text=+) | `#ADC178` | Акцентные элементы, кнопки |
-| ![#A98467](https://via.placeholder.com/15/A98467/000000?text=+) | `#A98467` | Дополнительные акценты |
-| ![#6C584C](https://via.placeholder.com/15/6C584C/000000?text=+) | `#6C584C` | Текст, заголовки |
-
-## 🚀 Быстрый старт
-
-### Предварительные требования
-
-- Node.js 18 или выше
-- npm или yarn
-
-### Установка и запуск
-
-```bash
-# Клонирование репозитория
-git clone <repository-url>
-
-# Запуск development сервера
-npm run dev
-
-# Или для production сборки
-npm run build
+  Run `npm run dev` to start the development server.
+  

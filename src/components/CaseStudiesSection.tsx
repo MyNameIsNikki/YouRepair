@@ -11,8 +11,8 @@ export function CaseStudiesSection({ isVisible }: CaseStudiesSectionProps) {
     {
       id: 1,
       title: 'Современная квартира в центре',
-      beforeImage: 'https://mapestate.ru/images/article/276/kvartira-v-novostroyke-bez-otdelki-ili-s-remontom-ot-zastroyschika-chto-luchshe/files_2577.png',
-      afterImage: 'https://cdn0.divan.ru/img/v1/otP7I6m9PB1lBjyacgloUl5F0sjQf9qspK3XL3da3r0/rs:fit:1920:1440:0:0/g:ce:0:0/bg:ffffff/q:85/czM6Ly9kaXZhbi93aWtpLWFydGljbGUvNDYwMDYxNS5qcGc.jpg',
+      beforeImage: 'https://images.unsplash.com/photo-1655727255440-9c0ea75ea30f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbGQlMjBkYW1hZ2VkJTIwYXBhcnRtZW50JTIwYmVmb3JlJTIwcmVub3ZhdGlvbnxlbnwxfHx8fDE3NjM1NDc3NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      afterImage: 'https://images.unsplash.com/photo-1638454668466-e8dbd5462f20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtb2Rlcm4lMjBhcGFydG1lbnQlMjBpbnRlcmlvcnxlbnwxfHx8fDE3NjM1MzkxNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
       location: 'Москва, Арбат',
       duration: '45 дней',
       budgetSaved: '78 000 ₽',
@@ -23,8 +23,8 @@ export function CaseStudiesSection({ isVisible }: CaseStudiesSectionProps) {
     {
       id: 2,
       title: 'Кухня мечты',
-      beforeImage: 'https://remont-volot.ru/uploads/posts/2014-04/1396343663_4.jpg',
-      afterImage: 'https://images.stroistyle.com/posts/1076211-sovremennyi-remont-kukhni-3.jpg',
+      beforeImage: 'https://images.unsplash.com/photo-1578177154072-bbbd429d496f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxraXRjaGVuJTIwcmVub3ZhdGlvbiUyMGJlZm9yZXxlbnwxfHx8fDE3NjM0Njk2MzR8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      afterImage: 'https://images.unsplash.com/photo-1722649957265-372809976610?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxraXRjaGVuJTIwcmVub3ZhdGlvbiUyMGFmdGVyfGVufDF8fHx8MTc2MzU0NjQxMnww&ixlib=rb-4.1.0&q=80&w=1080',
       location: 'Санкт-Петербург',
       duration: '30 дней',
       budgetSaved: '52 000 ₽',

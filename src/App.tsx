@@ -1,45 +1,48 @@
-import { useState, useEffect } from 'react';
-import { Header } from './components/Header';
-import { HeroSection } from './components/HeroSection';
-import { AboutSection } from './components/AboutSection';
-import { AdvantagesSection } from './components/AdvantagesSection';
-import { CaseStudiesSection } from './components/CaseStudiesSection';
-import { StatsSection } from './components/StatsSection';
-import { CTASection } from './components/CTASection';
-import { Footer } from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Toaster } from './components/ui/sonner';
+import { Home } from './pages/Home';
+import { About } from './pages/About';
+
+// Clients pages
+import { ClientsAdvantages } from './pages/clients/ClientsAdvantages';
+import { ClientsGallery } from './pages/clients/ClientsGallery';
+import { ClientsFunctionality } from './pages/clients/ClientsFunctionality';
+import { ClientsTraining } from './pages/clients/ClientsTraining';
+
+// Brigades pages
+import { BrigadesAdvantages } from './pages/brigades/BrigadesAdvantages';
+import { BrigadesReviews } from './pages/brigades/BrigadesReviews';
+import { BrigadesFunctionality } from './pages/brigades/BrigadesFunctionality';
+import { BrigadesTraining } from './pages/brigades/BrigadesTraining';
+
+// Support page
+import { Support } from './pages/Support';
 
 export default function App() {
-  const [isVisible, setIsVisible] = useState<{ [key: string]: boolean }>({});
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = document.querySelectorAll('[data-section]');
-      sections.forEach((section) => {
-        const rect = section.getBoundingClientRect();
-        const sectionId = section.getAttribute('data-section');
-        if (rect.top < window.innerHeight * 0.8 && sectionId) {
-          setIsVisible((prev) => ({ ...prev, [sectionId]: true }));
-        }
-      });
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    handleScroll();
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <main>
-        <HeroSection isVisible={isVisible['hero']} />
-        <AboutSection isVisible={isVisible['about']} />
-        <AdvantagesSection isVisible={isVisible['advantages']} />
-        <CaseStudiesSection isVisible={isVisible['cases']} />
-        <StatsSection isVisible={isVisible['stats']} />
-        <CTASection isVisible={isVisible['cta']} />
-      </main>
-      <Footer />
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          
+          {/* Clients routes */}
+          <Route path="/clients/advantages" element={<ClientsAdvantages />} />
+          <Route path="/clients/gallery" element={<ClientsGallery />} />
+          <Route path="/clients/functionality" element={<ClientsFunctionality />} />
+          <Route path="/clients/training" element={<ClientsTraining />} />
+          
+          {/* Brigades routes */}
+          <Route path="/brigades/advantages" element={<BrigadesAdvantages />} />
+          <Route path="/brigades/reviews" element={<BrigadesReviews />} />
+          <Route path="/brigades/functionality" element={<BrigadesFunctionality />} />
+          <Route path="/brigades/training" element={<BrigadesTraining />} />
+          
+          {/* Support route */}
+          <Route path="/support" element={<Support />} />
+        </Routes>
+      </Router>
+      <Toaster />
+    </>
   );
 }
