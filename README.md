@@ -1,0 +1,53 @@
+# 🏠 ВашРемонт - Платформа управления ремонтами
+
+<div align="center">
+
+![ВашРемонт](https://img.shields.io/badge/ВашРемонт-Платформа_управления_ремонтами-6C584C?style=for-the-badge&logo=home&logoColor=white)
+![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-6.3.5-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+**Современный лендинг для платформы управления строительными и ремонтными проектами**
+
+[Демо](#) • [Документация](#) • [Отчеты](#)
+
+</div>
+
+## ✨ Особенности
+
+- 🎨 **Современный дизайн** - Адаптивный интерфейс с фирменной цветовой палитрой
+- ⚡ **Высокая производительность** - Быстрая загрузка благодаря Vite и React 18
+- 📱 **Полная адаптивность** - Идеальное отображение на всех устройствах
+- 🎯 **Конверсионный дизайн** - Оптимизирован для генерации заявок
+- 🔧 **Интерактивные элементы** - Анимации, слайдеры, формы с валидацией
+
+## 🎨 Цветовая палитра
+
+Проект использует подобранную цветовую схему:
+
+| Цвет | HEX | Использование |
+|------|-----|---------------|
+| ![#F0EAD2](https://via.placeholder.com/15/F0EAD2/000000?text=+) | `#F0EAD2` | Основной фон |
+| ![#DDE5B6](https://via.placeholder.com/15/DDE5B6/000000?text=+) | `#DDE5B6` | Вторичный фон |
+| ![#ADC178](https://via.placeholder.com/15/ADC178/000000?text=+) | `#ADC178` | Акцентные элементы, кнопки |
+| ![#A98467](https://via.placeholder.com/15/A98467/000000?text=+) | `#A98467` | Дополнительные акценты |
+| ![#6C584C](https://via.placeholder.com/15/6C584C/000000?text=+) | `#6C584C` | Текст, заголовки |
+
+## 🚀 Быстрый старт
+
+### Предварительные требования
+
+- Node.js 18 или выше
+- npm или yarn
+
+### Установка и запуск
+
+```bash
+# Клонирование репозитория
+git clone <repository-url>
+
+# Запуск development сервера
+npm run dev
+
+# Или для production сборки
+npm run build
